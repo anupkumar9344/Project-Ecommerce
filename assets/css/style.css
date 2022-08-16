@@ -1,0 +1,47 @@
+:root{
+    --primary: rgb(52, 244, 116);
+    --secondary: rgb(52, 126, 244);
+    --text: rgb(17, 17, 17);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navbar CSS */
+.navbar{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.dropdown-menu{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 0px !important;
+    margin-top: 25px !important; 
+    border: none !important;
+    padding: 0px !important;
+}
+.dropdown-menu li{
+    padding: 0px !important;
+    margin: 0px !important;
+
+}
+.dropdown-menu li .dropdown-item{
+    padding: 15px !important;
+}
+.navbar-toggler{
+    border: 0 !important;
+}
+.navbar-toggler:active, .navbar-toggler:focus{
+    outline: none !important;
+}
+.btn-outline-primary, .btn-outline-secondary{
+    border-radius: 1px !important;
+}
+.btn-outline-primary{
+    border-color: var(--primary) !important;
+    color: var(--text) !important;
+    transition: all .3s ease-in-out !important;
+}
+.btn-outline-primary:hover{
+    background-color: var(--primary) !important;
+    color: white !important;
+}
