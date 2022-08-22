@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+
+    <input type="number" name="" value="10" id="num1">
+    <input type="number" name="" value="20" id="num2">
+    <button onclick="sum()" >Sun</button>
+    <p id="res"></p>
+
+    <script>
+        
+        function sum(){
+            var num1 = parseInt(document.getElementById('num1').value);
+            var num2 = parseInt(document.getElementById('num2').value);
+            document.getElementById('res').innerHTML = num1-num2;
+        }
+        
+    </script>
+</body>
+</html>

@@ -2,14 +2,20 @@
     --primary: rgb(52, 244, 116);
     --secondary: rgb(52, 126, 244);
     --text: rgb(17, 17, 17);
+    --white:white;
+    --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    --grad1: linear-gradient(to right top, #47ffde, #00d3e9, #00a3ee, #006fdc, #1432a9);
+    --grad2: linear-gradient(to right top, #47bbff, #7498ed, #9b70c7, #ae448f, #a9144f);
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    transition: all .3s ease-in-out !important;
+    transition: all 0.5s ease-in-out !important;
 }
-
+body{
+    background: var(--grad1) !important;
+}
 /* Navbar CSS */
 .navbar{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -49,15 +55,47 @@
 }
 
 /* Hero Section CSS */
+
 .hero, .hero .row{
     height: 90vh;
     
     /* background: #000; */
 }
 .hero img{
+    transition: all .5s ease-out !important;
     transform: scale(1) !important;
 }
 .hero img:hover{
     transform: scale(1.04) !important;
 
 }
+
+/* Info section */
+.info .card{
+    border: none;
+    box-shadow: var(--shadow);
+    text-align: center;
+    transition: .3s ease-in-out !important;
+}
+.info .card:hover{
+    box-shadow: var(--shadow);
+    background: var(--grad2);
+    color: var(--white);
+}
+.info .card-body{
+    padding-top: 15px;
+}
+.info .card i{
+    font-size: 55px;
+    padding: 7px 21px;
+    border-radius: 50%;
+    color: var(--white);
+    background: var(--primary);
+}
+/* .info .card i{
+    font-size: 55px;
+    padding: 7px;
+    border-radius: 50px;
+    color: var(--white);
+    background: var(--primary);
+} */
