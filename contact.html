@@ -1,12 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/bootstrap.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Contact</title>
 </head>
+
 <body>
-    <iframe style="width: 500px;height: 500px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58665.80162236392!2d72.61052857032013!3d23.220784701379177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c2b987c6d6809%3A0xf86f06a7873e0391!2sGandhinagar%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1661528810430!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container p-3">
+            <a class="navbar-brand" href="#"><strong>Navbar</strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto gap-2">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Category</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shops</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Contact</a></li>
+                            <li><a class="dropdown-item" href="#">About</a></li>
+                            <li><a class="dropdown-item" href="#">FAQ's</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <button data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                    class="btn btn-outline-primary me-2">Register</button>
+                <button data-bs-toggle="modal" data-bs-target="#login" class="btn btn-outline-secondary">Login</button>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <div class="container-fluid mybackground text-bg-dark">
+        <div class="row animate__animated animate__fadeInDown">
+            <div>
+                <div class="col-md-12">
+                    <div class="content">
+                        <p class="lorem">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur iste
+                            eligendi quod,
+                            minima laborum libero! Tempore odit animi officiis deleniti deserunt sequi earum odio
+                            quidem voluptatem dicta minima iure sit architecto expedita alias, consequatur quibusdam.
+                            Ducimus laudantium distinctio eligendi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- icon -->
+    <div class="container text-center infor ">
+        <div class="row mt-5 ">
+            <div class="col-md-6 col-lg-3 ">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="ri-send-plane-fill"></i>
+                        <h6 class="mt-2">Email: @gmail.com</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 ">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="ri-map-pin-user-fill"></i>
+                        <h6 class="mt-2">Location:</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 ">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="ri-radio-button-fill"></i>
+                        <h6 class="mt-2">Website: yoursite.com</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 ">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="ri-phone-fill"></i>
+                        <h6 class="mt-2">Phone: + 919977456834</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end icon -->
+    <!-- start contact -->
+    <div class="container ">
+        <div class="row contact ">
+            <div class="col-md-6">
+                <form class="row g-3 text animate__animated animate__fadeInUp">
+                    <h3>CONTACT US</h3>
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">FULL NAME</label>
+                        <input type="text" class="form-control" id="inputEmail4 pl" placeholder="Name">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputemail" class="form-label">EMAIL ADDRESS</label>
+                        <input type="email" class="form-control" id="inputemail pl" placeholder="Email">
+                    </div>
+                    <div class="col-md-12">
+                        <label for="inputsubject" class="form-label">SUBJECT</label>
+                        <input type="Subject" class="form-control" id="inputsubject pl" placeholder="Subject">
+                    </div>
+                    <div class="col-md-12">
+                        <label for="inputAddress" class="form-label">MESSAGE</label>
+                        <textarea type="text" class="form-control" id="inputAddress" placeholder="Message"></textarea>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Remember me
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-md-12 d-flex justify-content-end ">
+                        <button type="submit" class="btn btn-primary">Send Massage</button>
+                    </div>
+                </form>
+
+            </div>
+            <div class="col-md-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1837541.7590034916!2d85.80230854999999!3d25.904055300000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed5844f0bb6903%3A0x57ad3fed1bbae325!2sBihar!5e0!3m2!1sen!2sin!4v1661594773422!5m2!1sen!2sin" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!-- <img src="https://img.freepik.com/free-photo/businessman-touching-virtual-screen_1232-737.jpg" alt=""> -->
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <!-- end contact -->
+
+    <!-- Regitration modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Regitration</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputPassword4" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress" class="form-label">Address</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress2" class="form-label">Address 2</label>
+                            <input type="text" class="form-control" id="inputAddress2"
+                                placeholder="Apartment, studio, or floor">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputCity" class="form-label">City</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="inputState" class="form-label">State</label>
+                            <select id="inputState" class="form-select">
+                                <option selected>Choose...</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label for="inputZip" class="form-label">Zip</label>
+                            <input type="text" class="form-control" id="inputZip">
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Check me out
+                                </label>
+                            </div>
+                        </div>
+                        <!-- <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                  </div> -->
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End registration Modal -->
+    <!-- Login modal -->
+
+    <div class="modal fade" id="login" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="row g-3">
+                        <div class="col-md-12">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-md-12">
+                            <label for="inputPassword4" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                        </div>
+
+
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Remember me
+                                </label>
+                            </div>
+                        </div>
+                        <!-- <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                  </div> -->
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Login modal -->
 </body>
+
 </html>
