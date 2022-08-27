@@ -1,0 +1,85 @@
+:root {
+    --primary: rgb(52, 244, 116);
+    --secondary: rgb(52, 126, 244);
+    --text: rgb(17, 17, 17);
+    --gadian1: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .3s ease-in-out !important;
+}
+
+.lorem {
+    margin: 100px 300px !important;
+    text-align: center;
+}
+
+.mybackground {
+    background-image: url(https://img.freepik.com/premium-photo/3d-rendering-shopping-cart-laptop_172660-170.jpg?size=626&ext=jpg&uid=R77218493&ga=GA1.2.1004497983.1660314600);
+    background-repeat: no-repeat;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+
+}
+
+.infor .card-body {
+    padding: 10px;
+}
+
+.infor .card {
+    border: none;
+    box-shadow: var(--gadian1);
+    margin-bottom: 20px;
+}
+
+.infor .card:hover {
+    box-shadow: var(--gadian1);
+    background: linear-gradient(45deg, #2380d7 0%, #dfd9d2 100%)
+}
+
+.infor .card i {
+    font-size: 30px;
+    padding: 7px;
+    border-radius: 50px;
+    color: white;
+    background: var(--primary);
+}
+
+.text {
+    font-size: 15px !important;
+}
+
+.contact .text:hover {
+    transform: scale(1.04) !important;
+}
+
+.contact {
+    margin-top: 20px !important;
+    box-shadow: var(--gadian1);
+    padding: 30px 50px;
+}
+
+.contact iframe {
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* @media screen and (max-width 767) {
+    .contact iframe {
+        width: 500px;
+        height: 400px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+} */
+
+.contact img:hover {
+    transform: scale(1.04) !important;
+
+}
