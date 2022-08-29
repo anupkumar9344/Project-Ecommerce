@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
     <link rel="stylesheet" href="./assets/css/contact.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/bootstrap.css">
@@ -14,50 +15,47 @@
     <script src="./assets/js/bootstrap.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <title>Contact</title>
+    <title>Contact - Ecommerce</title>
 </head>
 
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg ">
+    <nav class="navbar navbar-expand-lg">
         <div class="container p-3">
-            <a class="navbar-brand" href="#"><strong>Navbar</strong></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav mx-auto gap-2">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Category</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Shops</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Products</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            More
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Contact</a></li>
-                            <li><a class="dropdown-item" href="#">About</a></li>
-                            <li><a class="dropdown-item" href="#">FAQ's</a></li>
-                        </ul>
-                    </li>
+          <a class="navbar-brand" href="index.html"><strong>Ecommerce</strong></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mx-auto gap-2">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="category.html">Category</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shops.html">Shops</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html">Products</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  More
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                  <li><a class="dropdown-item" href="about.html">About</a></li>
+                  <li><a class="dropdown-item" href="faq.html">FAQ's</a></li>
                 </ul>
+              </li>
+            </ul>
 
-                <button data-bs-toggle="modal" data-bs-target="#staticBackdrop"
-                    class="btn btn-outline-primary me-2">Register</button>
-                <button data-bs-toggle="modal" data-bs-target="#login" class="btn btn-outline-secondary">Login</button>
-            </div>
+            <button data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn btn-outline-primary me-2">Register</button>
+            <button data-bs-toggle="modal" data-bs-target="#login" class="btn btn-outline-secondary">Login</button>
+          </div>
         </div>
     </nav>
     <!-- End Navbar -->
@@ -84,7 +82,7 @@
                 <div class="card">
                     <div class="card-body">
                         <i class="ri-send-plane-fill"></i>
-                        <h6 class="mt-2">Email: @gmail.com</h6>
+                        <h6 class="mt-2">Email: example@gmail.com</h6>
                     </div>
                 </div>
             </div>
@@ -92,7 +90,7 @@
                 <div class="card">
                     <div class="card-body">
                         <i class="ri-map-pin-user-fill"></i>
-                        <h6 class="mt-2">Location:</h6>
+                        <h6 class="mt-2">Location: 123, Bihar</h6>
                     </div>
                 </div>
             </div>
@@ -108,7 +106,7 @@
                 <div class="card">
                     <div class="card-body">
                         <i class="ri-phone-fill"></i>
-                        <h6 class="mt-2">Phone: + 919977456834</h6>
+                        <h6 class="mt-2">Phone: +91 9977456834</h6>
                     </div>
                 </div>
             </div>
@@ -116,9 +114,9 @@
     </div>
     <!-- end icon -->
     <!-- start contact -->
-    <div class="container ">
-        <div class="row contact ">
-            <div class="col-md-6">
+    <div class="container mb-5">
+        <div class="row contact page">
+            <div class="col-md-12 col-lg-6 mb-4">
                 <form class="row g-3 text animate__animated animate__fadeInUp">
                     <h3>CONTACT US</h3>
                     <div class="col-md-6">
@@ -137,22 +135,15 @@
                         <label for="inputAddress" class="form-label">MESSAGE</label>
                         <textarea type="text" class="form-control" id="inputAddress" placeholder="Message"></textarea>
                     </div>
-                    <div class="col-md-12">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="gridCheck">
-                            <label class="form-check-label" for="gridCheck">
-                                Remember me
-                            </label>
-                        </div>
-                    </div>
+                    
                     <div class="col-md-12 d-flex justify-content-end ">
                         <button type="submit" class="btn btn-primary">Send Massage</button>
                     </div>
                 </form>
 
             </div>
-            <div class="col-md-6">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1837541.7590034916!2d85.80230854999999!3d25.904055300000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed5844f0bb6903%3A0x57ad3fed1bbae325!2sBihar!5e0!3m2!1sen!2sin!4v1661594773422!5m2!1sen!2sin" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="col-md-12 col-lg-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1837541.7590034916!2d85.80230854999999!3d25.904055300000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed5844f0bb6903%3A0x57ad3fed1bbae325!2sBihar!5e0!3m2!1sen!2sin!4v1661594773422!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <!-- <img src="https://img.freepik.com/free-photo/businessman-touching-virtual-screen_1232-737.jpg" alt=""> -->
             </div>
 
@@ -162,112 +153,154 @@
     <!-- end contact -->
 
     <!-- Regitration modal -->
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-md">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Regitration</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form class="row g-3">
-                        <div class="col-md-6">
-                            <label for="inputEmail4" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="inputEmail4">
-                        </div>
-                        <div class="col-md-6">
-                            <label for="inputPassword4" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="inputPassword4">
-                        </div>
-                        <div class="col-12">
-                            <label for="inputAddress" class="form-label">Address</label>
-                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                        </div>
-                        <div class="col-12">
-                            <label for="inputAddress2" class="form-label">Address 2</label>
-                            <input type="text" class="form-control" id="inputAddress2"
-                                placeholder="Apartment, studio, or floor">
-                        </div>
-                        <div class="col-md-6">
-                            <label for="inputCity" class="form-label">City</label>
-                            <input type="text" class="form-control" id="inputCity">
-                        </div>
-                        <div class="col-md-4">
-                            <label for="inputState" class="form-label">State</label>
-                            <select id="inputState" class="form-select">
-                                <option selected>Choose...</option>
-                                <option>...</option>
-                            </select>
-                        </div>
-                        <div class="col-md-2">
-                            <label for="inputZip" class="form-label">Zip</label>
-                            <input type="text" class="form-control" id="inputZip">
-                        </div>
-                        <div class="col-12">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="gridCheck">
-                                <label class="form-check-label" for="gridCheck">
-                                    Check me out
-                                </label>
-                            </div>
-                        </div>
-                        <!-- <div class="col-12">
-                    <button type="submit" class="btn btn-primary">Sign in</button>
-                  </div> -->
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Submit</button>
-                </div>
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Regitration</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
+            <div class="modal-body">
+              <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">Address</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress2" class="form-label">Address 2</label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">City</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
+                  <label for="inputState" class="form-label">State</label>
+                  <select id="inputState" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="col-md-2">
+                  <label for="inputZip" class="form-label">Zip</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Check me out
+                    </label>
+                  </div>
+                </div>
+                <!-- <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Sign in</button>
+                </div> -->
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
         </div>
-    </div>
-    <!-- End registration Modal -->
-    <!-- Login modal -->
-
-    <div class="modal fade" id="login" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      </div>
+      <!-- End registration Modal -->
+      <!-- Login modal -->
+      <div class="modal fade" id="login" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Login</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form class="row g-3">
-                        <div class="col-md-12">
-                            <label for="inputEmail4" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="inputEmail4">
-                        </div>
-                        <div class="col-md-12">
-                            <label for="inputPassword4" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="inputPassword4">
-                        </div>
-
-
-                        <div class="col-12">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="gridCheck">
-                                <label class="form-check-label" for="gridCheck">
-                                    Remember me
-                                </label>
-                            </div>
-                        </div>
-                        <!-- <div class="col-12">
-                    <button type="submit" class="btn btn-primary">Sign in</button>
-                  </div> -->
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Login</button>
-                </div>
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Login</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
+            <div class="modal-body">
+              <form class="row g-3">
+                <div class="col-md-12">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-12">
+                  <label for="inputPassword4" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                
+              
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Remember me
+                    </label>
+                  </div>
+                </div>
+                <!-- <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Sign in</button>
+                </div> -->
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Login</button>
+            </div>
+          </div>
         </div>
-    </div>
-    <!-- End Login modal -->
+      </div>
+      <!-- End Login modal -->
+      <!-- Footer -->
+      <footer>
+        <section>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6 col-lg-4">
+                  <div class="info">
+                    <img src="https://static.vecteezy.com/system/resources/previews/006/547/178/original/creative-modern-abstract-ecommerce-logo-design-colorful-gradient-online-shopping-bag-logo-design-template-free-vector.jpg" alt="Logo" class="img-fluid">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta id iure accusantium hic labore optio ea! Deserunt esse officia nobis!</p>
+                    <div class="social">
+                      <a href="#!" class="btn btn-outline-primary"><i class="ri-facebook-line"></i></a>
+                      <a href="#!" class="btn btn-outline-primary"><i class="ri-instagram-line"></i></a>
+                      <a href="#!" class="btn btn-outline-primary"><i class="ri-twitter-line"></i></a>
+                      <a href="#!" class="btn btn-outline-primary"><i class="ri-linkedin-line"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <div class="links">
+                    <h4>Important Links</h4>
+                    <ul>
+                      <li><i class="ri-arrow-right-s-line"></i><a href="index.html">Home</a></li>
+                      <li><i class="ri-arrow-right-s-line"></i><a href="contact.html">Contact</a></li>
+                      <li><i class="ri-arrow-right-s-line"></i><a href="about.html">About</a></li>
+                      <li><i class="ri-arrow-right-s-line"></i><a href="faq.html">FAQ's</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <div class="contact">
+                    <h4>Contact Info</h4>
+                    <ul>
+                      <li><strong>Address :</strong> Lorem ipsum dolor sit amet consectetur.</li>
+                      <li><strong>Email :</strong> xyz@gmail.com</li>
+                      <li><strong>Phone :</strong> +91 9090998909</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+        <div class="text-center bg-dark text-white p-3">
+          Copyright <i class="ri-copyright-line"></i> Ecommerce 2022
+        </div>
+      </footer>
+      <!-- End Footer -->
 </body>
 
 </html>

@@ -7,11 +7,9 @@ margin-top: 30px;
 line-height: 3;
 width: 40%;
 border-radius: 20px;
-background-image: linear-gradient(to right top, #cec816, #8ed156, #51d18b, #1bccb7, #40c3cf);
+background: #fff;
 }
-.hero .row{
-    height: 90vh;
-}
+
 h1{
     text-shadow: 2px 2px #ff0000;
 }

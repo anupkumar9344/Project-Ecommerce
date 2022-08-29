@@ -227,3 +227,21 @@ padding-top: 50px 0;
     font-size: 14px;
 }
 
+/* shop */
+.shops .card{
+    border: 0;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 38px 80px 0px;
+}
+.shops .card .s-img{
+    padding: 30px 0 10px 0;
+    display: flex;
+    justify-content: center;
+}
+.shops .card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.shops .card .card-title{
+    margin: 5px 0;
+}

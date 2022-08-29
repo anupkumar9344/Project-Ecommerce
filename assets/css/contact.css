@@ -17,6 +17,11 @@
     margin: 100px 300px !important;
     text-align: center;
 }
+@media screen and (max-width: 992px) {
+    .lorem {
+        margin: 80px 50px !important;
+    }
+}
 
 .mybackground {
     background-image: url(https://img.freepik.com/premium-photo/3d-rendering-shopping-cart-laptop_172660-170.jpg?size=626&ext=jpg&uid=R77218493&ga=GA1.2.1004497983.1660314600);
@@ -53,25 +58,25 @@
     font-size: 15px !important;
 }
 
-.contact .text:hover {
+.contact.page .text:hover {
     transform: scale(1.04) !important;
 }
 
-.contact {
+.contact.page {
     margin-top: 20px !important;
     box-shadow: var(--gadian1);
     padding: 30px 50px;
 }
 
-.contact iframe {
-    width: 500px;
+.contact.page iframe {
+    width: 100%;
     height: 400px;
     margin: 10px;
     border-radius: 10px;
 }
 
 /* @media screen and (max-width 767) {
-    .contact iframe {
+    .contact.page iframe {
         width: 500px;
         height: 400px;
         margin: 10px;
@@ -79,7 +84,7 @@
     }
 } */
 
-.contact img:hover {
+.contact.page img:hover {
     transform: scale(1.04) !important;
 
 }
