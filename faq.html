@@ -7,6 +7,8 @@
     <title>FAQ's - Ecommerce</title>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/faq.css">
+
     <link rel="stylesheet" href="./assets/css/footer.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./assets/css/bootstrap.css">
@@ -59,75 +61,127 @@
       </div>
     </div>
 </nav>
-<!-- End Navbar -->
-   <section id="Faqs">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 offset-lg-2">
-            <h1>How can i help you!</h1>
-            <div class="accordion mt-5" id="accordionExample">
-              <div class="card">
-                <div class="card-header" id="headingOne">
-                  <h2 class="clearfix mb-0">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Waht is your cloths Qulity
-                    </button>
-                  </h2>
-                </div>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <strong>This is the first item's accordion body.</strong>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo alias tempora
-                     nisi iusto, neque aliquid sit temporibus ipsum magnam molestiae
-                     enim incidunt commodi voluptatum vel assumenda quam. Aut, magni? Commodi.
-                  </div>
-                </div>
+<div class="container d-flex justify-content-center">
+  <div class="row text-center">
 
+    <div class="col-12">
+      <h1 class="heading">We're hear to help.</h1>
+    </div>
+    <div class="button-lg col-12 mt-3 mb-4">
+      <button type="button" class="btn btn-danger btn-lg me-4 col-3 ">Secretiab Related</button>
+      <button type="button" class="btn btn-danger btn-lg me-4 col-3 ">NewChair Related</button>
+    </div>
 
-                <div class="card-header" id="headingTwo">
-                  <h2 class="clearfix mb-0">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
-                      Waht is your cloths Qulity
-                    </button>
-                  </h2>
-                </div>
-                <div id="collapseTwo" class="accordion-collapse collapse " aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <strong>This is the first item's accordion body.</strong> 
-                    It is shown by default, until the collapse plugin adds the appropriate classes that we use to 
-                    style each element. These classes control the overall appearance, 
-                    as well as the showing and hiding via CSS transitions. You can modify any
-                     of this with custom CSS or overriding our default variables. It's also worth noting that just about
-                      any HTML can go within , though the transition does limit overflow.
-                  </div>
-                </div>
+    <div class="col-lg-12  ">
+      <form class="d-flex mt-3" role="search">
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="search" aria-label="search"
+            aria-describedby="basic-addon2">
+          <span class="input-group-text" id="basic-addon2"><i class="ri-search-line"></i></span>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
 
-                
+<!--end button-->
 
-                <div class="card-header" id="headingFour">
-                  <h2 class="clearfix mb-0">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">
-                      Waht is your cloths Qulity
-                      
-                    </button>
-                  </h2>
-                </div>
-                <div id="collapseFour" class="accordion-collapse collapse " aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <strong>This is the first item's accordion body.</strong> It is shown by default,
-                     until the collapse plugin adds the appropriate classes that we use to style each element.
-                      These classes control the overall appearance, as well as the showing and hiding via CSS transitions.
-                       You can modify any of this with custom CSS or overriding our default variables. It's also worth noting 
-                       that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit 
-                       overflow.
-                  </div>
-                </div>
-              </div>
-           </div>
+<!--start Faq-->
+<div class="container faq mb-4 shadow-lg">
+  <div class="row">
+   <div class="col-lg-5">
+    <h3 class="h3 mt-4" >Popular Questions</h3>
+   </div>
+    <div class="col-lg-7 ">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              <p class="desc"><b>What’s your return policy?</b></p>
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Return any of our products–no questions asked–within 30 days of purchase. We
+              even pay return shipping.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              <p class="desc"><b> Do you have customer service?</b></p>
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Of course! Our friendly and knowledgeable customer services reps are available
+              to answer your questions 24/7/365.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              <p class="desc"> <b> Do you ship oversees and to P.O. boxes?</b></p>
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Yes, we’ll ship your package anywhere that can accept deliveries.</div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </div>
+</div>
+<!--end Faq-->
+</div>
+
+<!--start card-->
+<div class="container card mb-4">
+  <div class="row">
+    <div class="col-sm-3 mb-4">
+      <div class="card ">
+        <div class="card-body"><i class="ri-truck-line " ></i>
+          <h6 class="card-title align-items-center">regarding</h6>
+          <p class="card-text"><strong>Orders & Payment</strong></p>
+          <a href="#" class="btn btnr"><b>➣</b> </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 mb-4">
+      <div class="card">
+        <div class="card-body"><i class="ri-refund-line"></i>
+          <h6 class="card-title">regarding</h6>
+          <p class="card-text"><strong>Refund & Return</strong></p>
+          <a href="#" class="btn btn"> <b>➣</b></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 mb-4">
+      <div class="card">
+        <div class="card-body"><i class="ri-shopping-bag-2-line"></i>
+          <i class="fa- fa-fast"></i>
+          <h6 class="card-title">regarding</h6>
+          <p class="card-text"><strong>Shipping</strong></p>
+          <a href="#" class="btn btn "> <b>➣</b></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 mb-4">
+      <div class="card">
+        <div class="card-body"><i class="ri-settings-4-line"></i>
+          <h6 class="card-title">regarding</h6>
+          <p class="card-text"><strong>Assembly & Care of Products</strong></p>
+          <a href="#" class="btn btn "> <b>➣</b></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--end card-->
 
 <!-- Regitration modal -->
 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
